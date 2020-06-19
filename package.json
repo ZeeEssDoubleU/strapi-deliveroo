@@ -1,0 +1,31 @@
+{
+	"name": "street-eats-frontend",
+	"version": "1.0.0",
+	"description": "Street Eats client.",
+	"scripts": {
+		"dev": "next",
+		"start": "next start",
+		"build": "next build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Zachary Williams <zak.williams2287@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"@material-ui/core": "^4.10.2",
+		"@material-ui/icons": "^4.9.1",
+		"@material-ui/styles": "^4.10.0",
+		"@stripe/react-stripe-js": "^1.1.2",
+		"@stripe/stripe-js": "^1.7.0",
+		"axios": "^0.19.2",
+		"js-cookie": "^2.2.1",
+		"jwt-decode": "^2.2.0",
+		"next": "^9.4.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"stripe": "^8.63.0",
+		"styled-components": "^5.1.1"
+	},
+	"devDependencies": {
+		"babel-plugin-styled-components": "^1.10.7"
+	}
+}
